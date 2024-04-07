@@ -1,0 +1,29 @@
+@{
+    Layout = "_Layout";
+}
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="p-4 shadow-lg rounded bg-light">
+                <h2 class="text-primary mb-3">Add Custom Customer</h2>
+
+                <form method="post" action="@Url.Action("CreateCustomCustomer", "BankEmployee")">
+                    <div class="form-group">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="d-grid gap-2 col-md-6 btn btn-primary mt-3">Add Customer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

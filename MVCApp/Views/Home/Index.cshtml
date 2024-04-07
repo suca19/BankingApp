@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container col-md-6">
+<div class="text-center">
+    @if(TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if(TempData["EmployeeCreated"] != null)
+    {
+        <div class="alert alert-success">
+                @TempData["EmployeeCreated"]
+        </div>
+    }
+
+</div>
+</div>
+
+<div class="container py-5">
+    <div class="row">
+        <!-- Bank Employee Login Form -->
+        <div class="col-md-6">
+            <div class="p-4 shadow-lg rounded bg-light">
+                <h2 class="text-primary mb-3">Login as Bank Employee</h2>
+                <form asp-controller="Home" asp-action="CreateBankEmployee" method="post" class="mb-3">
+                    <div class="d-grid gap-2 col-md-6">
+                        <input type="submit" value="Generate Bank Employee" class="btn btn-outline-primary"/>
+                    </div>
+                </form>
+                <form asp-controller="Employee" asp-action="Login" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="pin" class="form-label">PIN</label>
+                                <input type="text" class="form-control" id="pin" name="pin" required>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="d-grid gap-2 col-md-6 btn btn-primary mt-3">Login</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Bank Customer Login Form -->
+        <div class="col-md-6">
+            <div class="p-4 shadow-lg rounded bg-light">
+                <h2 class="text-primary mb-3">Login as Bank Customer</h2>
+                <form asp-controller="Customer" asp-action="Login" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" id="firstName" class="form-control" placeholder="First Name" name="firstName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" id="lastName" class="form-control" placeholder="Last Name" name="lastName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="accountNumber" class="form-label">Account Number</label>
+                                <input type="text" id="accountNumber" class="form-control" placeholder="Account Number" name="accountNumber" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="pinCustomer" class="form-label">Pin</label>
+                                <input type="text" id="pinCustomer" class="form-control" placeholder="Pin" name="pin" required>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="d-grid gap-2 col-md-6 btn btn-primary mt-3" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

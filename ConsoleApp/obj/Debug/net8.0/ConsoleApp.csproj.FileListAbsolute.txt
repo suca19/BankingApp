@@ -1,0 +1,14 @@
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/bin/Debug/net8.0/ConsoleApp
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/bin/Debug/net8.0/ConsoleApp.deps.json
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/bin/Debug/net8.0/ConsoleApp.runtimeconfig.json
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/bin/Debug/net8.0/ConsoleApp.dll
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/bin/Debug/net8.0/ConsoleApp.pdb
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfoInputs.cache
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfo.cs
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/ConsoleApp.dll
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/refint/ConsoleApp.dll
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/ConsoleApp.pdb
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/ConsoleApp.genruntimeconfig.cache
+/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/Debug/net8.0/ref/ConsoleApp.dll

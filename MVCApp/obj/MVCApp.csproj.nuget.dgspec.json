@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/carlos/RiderProjects/BankingApplication/MVCApp/MVCApp.csproj": {}
+  },
+  "projects": {
+    "/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/ConsoleApp.csproj",
+        "packagesPath": "/Users/carlos/.nuget/packages/",
+        "outputPath": "/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/carlos/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/carlos/RiderProjects/BankingApplication/MVCApp/MVCApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carlos/RiderProjects/BankingApplication/MVCApp/MVCApp.csproj",
+        "projectName": "MVCApp",
+        "projectPath": "/Users/carlos/RiderProjects/BankingApplication/MVCApp/MVCApp.csproj",
+        "packagesPath": "/Users/carlos/.nuget/packages/",
+        "outputPath": "/Users/carlos/RiderProjects/BankingApplication/MVCApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/ConsoleApp.csproj": {
+                "projectPath": "/Users/carlos/RiderProjects/BankingApplication/ConsoleApp/ConsoleApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Corex.Error.Client.NetCoreMvc": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "DotNetExtensions-HtmlTags": {
+              "target": "Package",
+              "version": "[0.4.6, )"
+            },
+            "FakerDotNet": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "FubuMVC.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/carlos/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

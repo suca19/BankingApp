@@ -1,0 +1,47 @@
+@{
+    ViewBag.Title = "Transaction";
+}
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="p-4 shadow-lg rounded bg-light">
+                <h2 class="text-primary mb-3">Transaction</h2>
+
+                @if(TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+
+                <form asp-controller="Transaction" method="post">
+                    <input type="hidden" class="form-control" id="userId" name="userId" value="@ViewBag.UserId">
+                    
+                    <div class="form-group">
+                        <label for="transactionType" class="form-label">Transaction Type</label>
+                        <select class="form-control" id="transactionType" name="transactionType">
+                            <option value="Deposit">Deposit</option>
+                            <option value="Withdraw">Withdraw</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="amount" class="form-label">Amount</label>
+                        <input type="number" step="0.01" class="form-control" id="amount" name="amount" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="typeOfAccount" class="form-label">Type of Account</label>
+                        <select class="form-control" id="typeOfAccount" name="typeOfAccount">
+                            <option value="SavingsAccount">Savings Account</option>
+                            <option value="CurrentAccount">Current Account</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="d-grid gap-2 col-md-6 btn btn-primary mt-3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
